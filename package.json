@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "tsc",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "aman hingve",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "firebase-functions": "^6.3.1",
+    "pug": "^3.0.3",
+    "socket.io": "^4.8.1"
+  },
+  "description": "",
+  "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
+}
